@@ -1,7 +1,6 @@
 {
-  "private": true,
-  "name": "easy-front",
-  "version": "1.0.0",
+  "name": "@caijiang/easy-front",
+  "version": "0.0.1",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -30,6 +29,8 @@
     ]
   },
   "dependencies": {
+    "@ant-design/pro-components": "^2.3.25",
+    "antd": "^4.23.6",
     "react": "^18.0.0"
   },
   "devDependencies": {
@@ -44,5 +45,15 @@
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
     "yorkie": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caijiang/easy-front.git"
+  },
+  "author": "Cai Jiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caijiang/easy-front/issues"
+  },
+  "homepage": "https://github.com/caijiang/easy-front#readme"
 }
