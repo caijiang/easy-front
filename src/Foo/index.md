@@ -5,7 +5,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'easy-front';
+import { Foo } from '@caijiang/easy-front';
 
 export default () => <Foo title="First Demo" />;
 ```

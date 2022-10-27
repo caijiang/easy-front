@@ -3,7 +3,7 @@
 
 ```tsx
 import React from 'react';
-import { ChangePasswordForm } from 'easy-front';
+import { ChangePasswordForm } from '@caijiang/easy-front';
 
 export default () => <ChangePasswordForm handler={(it)=>{console.log(it)}} />;
 ```
