@@ -1,0 +1,35 @@
+## 引入指南
+
+### 路由
+
+在 `routes.ts` 文件中引入。
+
+```typescript
+import { route as common } from '../src/common';
+
+
+...common,
+```
+
+### 本地化
+
+在 `zh-CN.ts` 中
+
+```typescript
+import common from '@/common/locales/zh-CN';
+
+
+...common,
+```
+
+### 头像菜单更新
+
+在 `AvatarDropdown.tsx` 中
+
+```typescript
+import { menu as CommonMenu } from '@/common';
+
+{
+  CommonMenu;
+}
+```
