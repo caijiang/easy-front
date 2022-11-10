@@ -1,6 +1,6 @@
 {
   "name": "@caijiang/easy-front",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -29,8 +29,8 @@
     ]
   },
   "dependencies": {
-    "@ant-design/pro-components": "^2.3.25",
-    "antd": "^4.23.6",
+    "@ant-design/pro-components": "1.1.1",
+    "antd": "^4.22.0",
     "react": "^18.0.0"
   },
   "devDependencies": {
