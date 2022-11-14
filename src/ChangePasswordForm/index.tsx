@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import { Form, Input, Button, message } from 'antd';
 import type { FormInstance } from 'antd/lib/form';
-import { ProCard } from '@ant-design/pro-components';
+import { ProCard } from '@ant-design/pro-card';
 
 const layout = {
   labelCol: {

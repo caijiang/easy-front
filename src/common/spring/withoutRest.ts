@@ -1,6 +1,7 @@
 // 不采纳spring-data-rest的做法
 
-import type { ParamsType, RequestData } from '@ant-design/pro-components';
+import type { ParamsType } from '@ant-design/pro-provider';
+import type { RequestData } from '@ant-design/pro-table';
 import type { SortOrder } from 'antd/lib/table/interface';
 import lodash from 'lodash';
 import { request } from 'umi';
